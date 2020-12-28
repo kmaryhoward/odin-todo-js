@@ -1,0 +1,91 @@
+.card {
+    background: rgba(0,0,0,.75);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6); 
+    color:#e6e7ef;
+    flex: 0 1 25%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 16px;
+    margin: 5px;
+    width: 25%;
+  }
+  
+  #display-card {
+    position: fixed;
+    left: 35%;
+    top: 20%;
+  }
+  
+  .title {
+    color: #e6e7ef;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5em 1em;
+    text-align: center;
+  }
+  
+  form {
+    background: rgba(0,0,0,.75);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    color: #e6e7ef;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    margin-bottom: 40px;
+    width: 400px;
+    padding: 40px;
+  }
+  
+  form .form-field {
+    padding: 15px;
+    position: relative;
+  }
+  
+  form .form-field input {
+    background: transparent;
+    color: #e6e7ef;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-bottom: 1px solid #e6e7ef;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+  
+  label {
+    color: #e6e7ef;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+  }
+  
+  #project-submit,
+  #todo-submit {
+    background: transparent;
+    border: none;
+    bottom: 10%;
+    color: #e6e7ef;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  #project-submit:focus,
+  #todo-submit:focus {
+    outline: none;
+  }
+  
+  h1 {
+    color: #e6e7ef;
+    font-family: 'Times New Roman', Times, serif;
+    left: 30%;
+    text-align: center;
+  }
